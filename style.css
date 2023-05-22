@@ -36,7 +36,7 @@
     padding: 20px;
   }
   
-  aside {
+ /*  aside {
     background-color: #f0f0f0;
   }
   
@@ -58,9 +58,9 @@
     padding: 10px;
     font-weight: bold;
     margin-bottom: 15px;
-  }
+  } */
   
-  .more-text {
+/*   .more-text {
     margin-bottom: 15px;
   }
   
@@ -69,7 +69,7 @@
     padding: 20px;
     margin-bottom: 20px;
     font-weight: bold;
-  }
+  } */
 
 /*   This is for main section */
 
@@ -149,11 +149,20 @@
 button{
 	background-color: var(--brand);
 	padding: 1rem;
-	border-radius: 10px;
+	border-radius: 20px;
 	color: var(--white);
 	margin: 20px;
+	border: none;
 }
 
+button:hover{
+	background: var(--brand-gradient);
+	transform: scale(1.1);
+}
+
+button:active{
+	box-shadow: inset 3px 2px 15px -5px #252525;
+}
 
 
   footer {
